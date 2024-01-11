@@ -1,0 +1,25 @@
+name: expense_kuldii
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  convex_bottom_bar: ^3.2.0
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  get: 4.6.5
+  syncfusion_flutter_charts: ^24.1.43
+  fl_chart: ^0.40.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/icons/
+  uses-material-design: true
